@@ -1,4 +1,6 @@
 # Configure API Keys in Kestra
+
+```bash
 export GEMINI_API_KEY="your-gemini-api-key-here" 
 export SECRET_GEMINI_API_KEY=$(echo -n $GEMINI_API_KEY | base64) 
 export SECRET_OPENAI_API_KEY=$(echo -n "your-openai-api-key-here" | base64) 
