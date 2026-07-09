@@ -1,7 +1,7 @@
-Configure API Keys in Kestra
+# Configure API Keys in Kestra
 export GEMINI_API_KEY="your-gemini-api-key-here" 
 export SECRET_GEMINI_API_KEY=$(echo -n $GEMINI_API_KEY | base64) 
-export SECRET_OPENAI_API_KEY=$(echo -n "your-openai-api-key-here" | base64)   
+export SECRET_OPENAI_API_KEY=$(echo -n "your-openai-api-key-here" | base64) 
 export SECRET_TAVILY_API_KEY=$(echo -n "your-tavily-api-key-here" | base64)   
 
 Q1. After trying the same prompt in ChatGPT vs Kestra AI Copilot, what is the primary reason AI Copilot generates better Kestra flows? (1 point)
